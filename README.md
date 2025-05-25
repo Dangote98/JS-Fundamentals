@@ -35,4 +35,22 @@ node 1-multi_languages.js
 - Two or more arguments → "Arguments found"
 
 **File:** `2-arg
+## 3. Value of my argument
+
+**Task:** Script prints the first argument passed.
+
+- If an argument is passed → prints it
+- If no argument → prints "No argument"
+
+**File:** `3-value_argument.js`
+
+**Rules:**
+- Uses `process.argv[2]`
+- No use of `.length`
+- `console.log(...)` used directly
+
+**Run with:**
+```bash
+node 3-value_argument.js
+node 3-value_argument.js School
 
