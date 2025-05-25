@@ -64,4 +64,23 @@ node 3-value_argument.js School
 node 4-concat.js c cool
 node 4-concat.js c
 node 4-concat.js
+## 5. An Integer
+
+**Task:** Script prints an integer value from the first argument passed.
+
+**File:** `5-to_integer.js`
+
+**Rules:**
+- Uses `parseInt()` to convert
+- If result is a valid number → print `My number: <value>`
+- If not → print `Not a number`
+- Uses `isNaN()` (no `try/catch`)
+
+**Run with:**
+```bash
+node 5-to_integer.js
+node 5-to_integer.js 89
+node 5-to_integer.js "89"
+node 5-to_integer.js 89.89
+node 5-to_integer.js School
 
