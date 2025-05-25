@@ -115,4 +115,38 @@ node 6-multi_languages_loop.js
 node 7-multi_c.js 3
 node 7-multi_c.js
 node 7-multi_c.js -2
+## 8. Square
+
+**Task:** Script prints a square using the first argument as the size.
+
+**File:** `8-square.js`
+
+**Rules:**
+- Prints a square of `X` characters
+- If input is invalid or missing, prints `Missing size`
+- Uses loops and `repeat()` for each row
+- Only `const` and `let` allowed
+
+**Run with:**
+```bash
+node 8-square.js 4
+node 8-square.js
+node 8-square.js School
+## 9. Add
+
+**Task:** Script adds 2 integers provided as arguments and prints the result.
+
+**File:** `9-add.js`
+
+**Rules:**
+- Defines a function `add(a, b)`
+- Uses `parseInt()` to convert arguments
+- Outputs sum using `console.log(...)`
+- No use of `var`
+
+**Run with:**
+```bash
+node 9-add.js 4 5
+node 9-add.js 10 100
+node 9-add.js 1
 
