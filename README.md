@@ -53,4 +53,15 @@ node 1-multi_languages.js
 ```bash
 node 3-value_argument.js
 node 3-value_argument.js School
+## 4. Create a sentence
+
+**Task:** Script prints two arguments in the format: `firstArg is secondArg`.
+
+**File:** `4-concat.js`
+
+**Run with:**
+```bash
+node 4-concat.js c cool
+node 4-concat.js c
+node 4-concat.js
 
