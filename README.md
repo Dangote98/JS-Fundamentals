@@ -98,4 +98,21 @@ node 5-to_integer.js School
 **Run with:**
 ```bash
 node 6-multi_languages_loop.js
+## 7. I love C
+
+**Task:** Script prints "C is fun" x times, where x is the first argument.
+
+**File:** `7-multi_c.js`
+
+**Rules:**
+- Uses a loop to print
+- If no valid number is passed, prints: `Missing number of occurrences`
+- Only 2 console.log statements used
+- No `var`, only `const` and `let`
+
+**Run with:**
+```bash
+node 7-multi_c.js 3
+node 7-multi_c.js
+node 7-multi_c.js -2
 
