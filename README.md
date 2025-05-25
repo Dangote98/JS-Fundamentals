@@ -83,4 +83,19 @@ node 5-to_integer.js 89
 node 5-to_integer.js "89"
 node 5-to_integer.js 89.89
 node 5-to_integer.js School
+## 6. Loop to languages
+
+**Task:** Script prints 3 lines using an array and a loop.
+
+**File:** `6-multi_languages_loop.js`
+
+**Rules:**
+- Uses an array to store strings
+- Uses a loop to print each line
+- No `var`, no `if/else`
+- Only one `console.log(...)` per loop iteration
+
+**Run with:**
+```bash
+node 6-multi_languages_loop.js
 
