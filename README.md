@@ -149,4 +149,23 @@ node 8-square.js School
 node 9-add.js 4 5
 node 9-add.js 10 100
 node 9-add.js 1
+## 10. Factorial (Advanced)
+
+**Task:** Script computes the factorial of a number recursively.
+
+**File:** `10-factorial.js`
+
+**Rules:**
+- Input: First CLI argument
+- Factorial of `NaN` or `0` is `1`
+- Uses a **recursive** function
+- Output via `console.log(...)`
+- Only `const` and `let` used
+
+**Run with:**
+```bash
+node 10-factorial.js
+node 10-factorial.js 5
+node 10-factorial.js School
+node 10-factorial.js 333
 
